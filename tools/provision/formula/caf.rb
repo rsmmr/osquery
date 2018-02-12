@@ -3,13 +3,8 @@ require File.expand_path("../Abstract/abstract-osquery-formula", __FILE__)
 class Caf < AbstractOsqueryFormula
   desc "Implementation of the Actor Model for C++"
   homepage "https://actor-framework.org/"
-  url "https://github.com/actor-framework/actor-framework.git",
-      :branch => "develop"
-      #:revision => "9c3822a6e09bb08675f103375a6a643170a36754"
-  #url "https://github.com/actor-framework/actor-framework/archive/0.14.6.tar.gz"
-  #sha256 "cbc2033896fe41e42604de2f74673971718a40684996650157484485755f7720"
-  head "https://github.com/actor-framework/actor-framework.git"
-  version "0.14.6"
+  url "https://github.com/actor-framework/actor-framework/archive/0.15.5.tar.gz"
+  sha256  "2dd710366ee03f9b23f3aaea2ed4bdc0c39c5e503819b870785186f54751cf86"
   revision 1
 
   needs :cxx11
